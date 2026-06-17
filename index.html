@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en" data-wf-page="671b33588b587e3b5fbb7805" data-wf-site="671b33578b587e3b5fbb75e7">
+<head>
+  <meta charset="utf-8">
+  <title>Shoot Niseko — A Photographer's Hokkaido Route | Yuki Yabai</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="A photographer's guide to the most epic nature spots around Niseko & Hokkaido — Mt. Yotei, the Shakotan Blue cliffs, the Blue Pond and Shirahige Falls. Curated by Yuki Yabai." name="description">
+  <meta content="Shoot Niseko — A Photographer's Hokkaido Route" property="og:title">
+  <meta content="The epic nature spots around your Niseko stay — vision-scored, with exact frames and golden-hour timing." property="og:description">
+  <meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Mount_Y%C5%8Dtei_from_Niseko_Annupuri_(33253188670).jpg/1280px-Mount_Y%C5%8Dtei_from_Niseko_Annupuri_(33253188670).jpg" property="og:image">
+  <meta property="og:type" content="website">
+  <!-- Yuki Yabai brand stylesheets (Webflow) -->
+  <link href="https://yukiyabai.com/css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="https://yukiyabai.com/css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://yukiyabai.com/css/yuki-yabai.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({google:{families:["Montserrat:100,200,300,400,500,600,700,800,900"]}});</script>
+  <link href="https://yukiyabai.com/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="https://yukiyabai.com/images/webclip.png" rel="apple-touch-icon">
+  <style>
+    :root{
+      --bg:#0b0e13; --card:#13171e; --ink:#f4f2ec; --mut:#9aa1ad;
+      --accent:#e8b04b; --blue:#5ec8ff; --green:#6fcf97; --line:#242a34;
+    }
+    /* ---- keep the brand header/footer untouched; scope everything else to .guide ---- */
+    body{background:var(--bg);margin:0}
+    /* make the brand nav always show its links (no JS needed cross-site) */
+    .navigation .menu-button{display:none !important}
+    .navigation .w-nav-menu{display:flex !important;position:static !important;align-items:center;gap:8px}
+    .navigation{position:relative;z-index:50}
+
+    .guide{background:var(--bg);color:var(--ink);font-family:"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+    .guide *{box-sizing:border-box}
+    .guide h1,.guide h2,.guide h3,.guide p,.guide figure{margin:0;font-weight:inherit}
+    .guide .wrap{max-width:1040px;margin:0 auto;padding:0 18px}
+
+    .guide .hero{position:relative;height:78vh;min-height:480px;display:flex;align-items:flex-end;overflow:hidden}
+    .guide .hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.6) saturate(1.06)}
+    .guide .hero-grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,14,19,.2) 0%,rgba(11,14,19,.08) 42%,rgba(11,14,19,.97) 100%)}
+    .guide .hero-content{position:relative;z-index:2;padding:0 18px 46px;max-width:1040px;margin:0 auto;width:100%}
+    .guide .kicker{letter-spacing:.3em;text-transform:uppercase;font-size:12px;color:var(--accent);font-weight:700;margin-bottom:14px}
+    .guide h1{font-size:clamp(34px,6vw,62px);line-height:1.03;font-weight:800;letter-spacing:-.02em}
+    .guide .sub{color:#d6d8dd;font-size:clamp(15px,2.2vw,19px);margin-top:14px;max-width:660px;font-weight:300}
+    .guide .meta-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+    .guide .pill{background:rgba(255,255,255,.08);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:13px;color:var(--ink);backdrop-filter:blur(6px)}
+    .guide .pill b{color:var(--accent);font-weight:700}
+
+    .guide .intro{padding:42px 0 8px}
+    .guide .intro p{color:var(--mut);font-size:16px;max-width:800px;font-weight:300}
+    .guide .intro p b{color:var(--ink);font-weight:600}
+
+    .guide .day{padding:40px 0 8px;border-top:1px solid var(--line);margin-top:34px}
+    .guide .day-head{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:6px}
+    .guide .day-num{font-size:13px;letter-spacing:.26em;text-transform:uppercase;color:var(--accent);font-weight:700}
+    .guide .day-title{font-size:clamp(23px,3.4vw,32px);font-weight:800;letter-spacing:-.01em}
+    .guide .day-tag{color:var(--mut);font-size:15px;margin-bottom:26px;max-width:780px;font-weight:300}
+
+    .guide .spot{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;margin-bottom:26px}
+    .guide .spot>img{width:100%;height:clamp(280px,46vw,520px);object-fit:cover;display:block;background:#1b1f27}
+    .guide .spot-body{padding:22px 24px 26px}
+    .guide .spot-name{font-size:22px;font-weight:800;letter-spacing:-.01em;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+    .guide .badge{font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:4px 9px;border-radius:6px;background:rgba(232,176,75,.14);color:var(--accent);border:1px solid rgba(232,176,75,.3)}
+    .guide .badge.blue{background:rgba(94,200,255,.13);color:var(--blue);border-color:rgba(94,200,255,.32)}
+    .guide .badge.green{background:rgba(111,207,151,.13);color:var(--green);border-color:rgba(111,207,151,.3)}
+    .guide .spot-desc{color:var(--mut);margin-top:12px;font-size:15.5px;font-weight:300}
+    .guide .facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+    .guide .fact{font-size:13px;background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:10px;padding:8px 12px;color:var(--ink)}
+    .guide .fact span{color:var(--mut)}
+    .guide .shot{margin-top:16px;padding:14px 16px;border-radius:12px;background:linear-gradient(90deg,rgba(94,200,255,.10),rgba(94,200,255,.02));border:1px solid rgba(94,200,255,.22);font-size:14.5px;font-weight:300}
+    .guide .shot b{color:var(--blue);font-weight:700}
+
+    .guide .addon{background:linear-gradient(160deg,#14181f,#0f1218);border:1px dashed var(--line);border-radius:18px;padding:28px;margin:34px 0}
+    .guide .addon h3{font-size:20px;font-weight:800;margin-bottom:6px}
+    .guide .addon .grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-top:18px}
+    .guide .addon figure{border-radius:12px;overflow:hidden;border:1px solid var(--line);background:#0e1116}
+    .guide .addon figure img{width:100%;height:150px;object-fit:cover;display:block}
+    .guide .addon figcaption{padding:8px 10px;font-size:12.5px;color:var(--mut);font-weight:300}
+    .guide .addon figcaption b{color:var(--ink);font-weight:600}
+
+    .guide .logistics{padding:30px 0 10px;border-top:1px solid var(--line);margin-top:34px}
+    .guide .logistics h2{font-size:24px;font-weight:800;margin-bottom:14px}
+    .guide .ltable{display:grid;grid-template-columns:1fr;gap:10px}
+    .guide .lrow{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:15px;font-weight:300}
+    .guide .lrow b{color:var(--accent);font-weight:700}
+    .guide .endnote{padding:40px 0 10px;color:var(--mut);font-size:13px;text-align:center}
+    .guide .credit{font-size:11.5px;color:#5b616b;margin-top:8px}
+    @media(max-width:680px){.guide .addon .grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+
+  <!-- ===== BRAND HEADER (Yuki Yabai, modified nav) ===== -->
+  <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navigation w-nav">
+    <div class="navigation-items">
+      <a href="https://yukiyabai.com/" class="logo-link w-nav-brand"><img src="https://yukiyabai.com/images/long-logo-small.png" width="250" alt="Yuki Yabai" class="logo-image"></a>
+      <div class="navigation-wrap">
+        <nav role="navigation" class="navigation-items w-nav-menu">
+          <a href="https://yukiyabai.com/" class="navigation-item w-nav-link">Home</a>
+          <a href="#route" class="navigation-item w-nav-link">The Route</a>
+          <a href="https://yukiyabai.com/#contact" class="navigation-item w-nav-link">Contact</a>
+        </nav>
+        <div class="menu-button w-nav-button"><img src="https://yukiyabai.com/images/menu-icon_1menu-icon.png" width="22" alt="" class="menu-icon"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== GUIDE BODY ===== -->
+  <main class="guide">
+
+    <header class="hero">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Mount_Y%C5%8Dtei_from_Niseko_Annupuri_(33253188670).jpg/1280px-Mount_Y%C5%8Dtei_from_Niseko_Annupuri_(33253188670).jpg" alt="Mt. Yotei seen from Niseko Annupuri">
+      <div class="hero-grad"></div>
+      <div class="hero-content" id="route">
+        <div class="kicker">A Yuki Yabai Guide · Shoot Niseko in 5 Days</div>
+        <h1>Ezo Fuji at dawn,<br>cobalt cliffs up north,<br>a pond that glows blue.</h1>
+        <p class="sub">A photographer's route from your Niseko base — only the genuinely epic frames, each one vision-scored. Exact compositions, golden-hour timing, and drive times from Hirafu.</p>
+        <div class="meta-row">
+          <div class="pill"><b>Base:</b> Niseko (Hirafu / Kutchan)</div>
+          <div class="pill"><b>Fly:</b> New Chitose (CTS)</div>
+          <div class="pill"><b>5 days</b> · self-drive</div>
+          <div class="pill"><b>Best:</b> Jun–Oct green · Dec–Feb snow</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrap">
+
+      <section class="intro">
+        <p>You're based in <b>Niseko</b> — the powder capital of Japan, sitting under the perfect cone of <b>Mt. Yotei ("Ezo Fuji")</b>. The wins here are <b>volcano panoramas, the surreal cobalt sea-cliffs of the Shakotan coast, and central Hokkaido's electric-blue pond and waterfall</b>. Days 1–2 run straight from your Niseko door; Days 3–5 are an eastern road-trip loop to Biei, Furano and back via Otaru — the most Instagram-famous stretch in Hokkaido. Every featured spot below scored <b>7–9/10</b> on a real "epic-frame" check; the merely-pretty volcanic lakes are kept honest in a detour box at the end.</p>
+      </section>
+
+      <!-- DAY 1 -->
+      <section class="day">
+        <div class="day-head"><div class="day-num">Day 01</div><div class="day-title">Mt. Yotei &amp; the Niseko valley</div></div>
+        <p class="day-tag">Ease in on home turf. The valley is ringed by one of Japan's most perfect volcanoes — shoot it big, then chase its snowmelt into the forest.</p>
+
+        <article class="spot">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mt._Yotei_in_snow_(53370261284).jpg/1280px-Mt._Yotei_in_snow_(53370261284).jpg" alt="Mt. Yotei snow cone above Niseko">
+          <div class="spot-body">
+            <div class="spot-name">Mt. Yotei — the snow cone <span class="badge">Icon · 8/10</span></div>
+            <p class="spot-desc">A textbook stratovolcano so symmetrical locals call it "Ezo Fuji." In winter it looms cloud-capped and white over the whole valley; in green season it's a deep emerald pyramid. It anchors the entire Niseko skyline — your reliable hero subject all week.</p>
+            <div class="facts"><div class="fact"><span>From Hirafu:</span> in view everywhere · 15–20 min to base</div><div class="fact"><span>Best light:</span> cold clear dawn (alpenglow) or blue hour</div></div>
+            <div class="shot"><b>The frame:</b> put a low foreground (a fence, road, or rime-frosted trees) in the bottom third so the symmetrical cone fills the upper two-thirds against clean sky.</div>
+          </div>
+        </article>
+
+        <article class="spot">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/%E7%BE%8A%E8%B9%84%E5%B1%B1%E3%81%AE%E6%B9%A7%E6%B0%B4.jpg/1280px-%E7%BE%8A%E8%B9%84%E5%B1%B1%E3%81%AE%E6%B9%A7%E6%B0%B4.jpg" alt="Mt. Yotei over spring-fed still water">
+          <div class="spot-body">
+            <div class="spot-name">Yotei spring-water reflection <span class="badge blue">Mirror · 7/10</span></div>
+            <p class="spot-desc">Yotei's snowmelt filters underground for decades and surfaces in glassy spring-fed ponds at its base. On a windless morning the cone inverts in the deep-green water for a "逆さ羊蹄" reflection shot.</p>
+            <div class="facts"><div class="fact"><span>From Kutchan:</span> ~15 min</div><div class="fact"><span>Best light:</span> dead-calm sunrise for a true mirror</div></div>
+            <div class="shot"><b>The frame:</b> get low at the water's edge before any wind picks up; expose for the sky and let the inverted cone fill the lower half.</div>
+          </div>
+        </article>
+
+        <article class="spot">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Fukidashi_Park_on_June_12nd%2C_2019.jpg/1280px-Fukidashi_Park_on_June_12nd%2C_2019.jpg" alt="Fukidashi Park spring water cascade">
+          <div class="spot-body">
+            <div class="spot-name">Fukidashi Park (Kyogoku spring) <span class="badge green">Forest water · 7/10</span></div>
+            <p class="spot-desc">Crystal spring water bursts out of the forest floor over vivid mossy rock — one of Japan's "100 best waters," all of it Yotei snowmelt that's been underground for ~70 years. A lush, green, long-exposure playground.</p>
+            <div class="facts"><div class="fact"><span>From Hirafu:</span> 25–30 min (Kyogoku)</div><div class="fact"><span>Best light:</span> soft shade / overcast for saturated greens</div></div>
+            <div class="shot"><b>The frame:</b> tripod + slow shutter (1/8–1s) to silk the water over the moss; shoot in shade so the highlights don't blow out.</div>
+          </div>
+        </article>
+      </section>
+
+      <!-- DAY 2 -->
+      <section class="day">
+        <div class="day-head"><div class="day-num">Day 02</div><div class="day-title">The Shakotan Peninsula — "Shakotan Blue"</div></div>
+        <p class="day-tag">The big one. Drive ~2¼ h north to Hokkaido's most dramatic coastline: knife-edge green capes and sea-stacks plunging into impossibly cobalt water. This is the cliff-drama day.</p>
+
+        <article class="spot">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/130823_Shimamui_Coast_Shakotan_Hokkaido_Japan01s3.jpg/1280px-130823_Shimamui_Coast_Shakotan_Hokkaido_Japan01s3.jpg" alt="Cape Shimamui sea stacks over cobalt water">
+          <div class="spot-body">
+            <div class="spot-name">Cape Shimamui <span class="badge blue">Showstopper · 9/10</span></div>
+            <p class="spot-desc">Spear-like rock pinnacles erupt from a cove so blue it looks unreal. You emerge from a dark cliff tunnel and the whole bay detonates into cobalt-and-emerald colour — the single most epic frame on this route.</p>
+            <div class="facts"><div class="fact"><span>From Niseko:</span> ~2–2¼ h</div><div class="fact"><span>Season:</span> Jun–early Oct</div><div class="fact"><span>Best light:</span> high overhead sun = max water saturation</div></div>
+            <div class="shot"><b>The frame:</b> from the tunnel-exit viewpoint, anchor the big triangular sea-stack center-left and let foliage frame the bottom edge.</div>
+          </div>
+        </article>
+
+        <article class="spot">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/130823_Cape_Kamui_Shakotan_Hokkaido_Japan02s3.jpg/1280px-130823_Cape_Kamui_Shakotan_Hokkaido_Japan02s3.jpg" alt="Cape Kamui ridge promontory into the sea">
+          <div class="spot-body">
+            <div class="spot-name">Cape Kamui (Kamui Misaki) <span class="badge blue">Hero cape · 8.5/10</span></div>
+            <p class="spot-desc">A vivid green spine of land thins to a knife-edge before plunging into the Pacific, a lone lighthouse at the tip. Trolltunga-style drama with tropical colour — the serpentine ridge path is yours to walk out to the point.</p>
+            <div class="facts"><div class="fact"><span>From Niseko:</span> ~2¼ h</div><div class="fact"><span>Note:</span> tip gate is snow-closed in winter</div><div class="fact"><span>Best light:</span> late morning–early afternoon</div></div>
+            <div class="shot"><b>The frame:</b> from the elevated entrance overlook, let the ridge path lead the eye out to the lighthouse, keeping the turquoise shallows in the lower-right third.</div>
+          </div>
+        </article>
+
+        <article class="spot">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/130823_Cape_Kamui_Shakotan_Hokkaido_Japan08s3.jpg/1280px-130823_Cape_Kamui_Shakotan_Hokkaido_Japan08s3.jpg" alt="Shakotan Blue cobalt cove close-up">
+          <div class="spot-body">
+            <div class="spot-name">Shakotan Blue — the cobalt cove <span class="badge blue">Vertical · 7.5/10</span></div>
+            <p class="spot-desc">The water reads like tropical glass against raw volcanic rock — the definitive close-up of "Shakotan Blue." A natural portrait/Story frame down the cliff face into the glowing shallows.</p>
+            <div class="facts"><div class="fact"><span>From Niseko:</span> ~2¼ h (Cape Kamui access)</div><div class="fact"><span>Best light:</span> bright overhead sun, Jul–Aug warmest tone</div></div>
+            <div class="shot"><b>The frame:</b> shoot vertical down into the cove; a tiny figure or snorkeler for scale sells the water clarity.</div>
+          </div>
+        </article>
+      </section>
+
+      <!-- DAY 3 -->
+      <section class="day">
+        <div class="day-head"><div class="day-num">Day 03</div><div class="day-title">East to Biei — the turquoise day</div></div>
+        <p class="day-tag">Relocate east (~3 h) into Hokkaido's most famous photo country. Two of the most surreal water colours in Japan sit minutes apart. Overnight in Biei/Furano.</p>
+
+        <article class="spot">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Blue_Pond_%28Aoiike%29_at_Biei%2C_Hokkaido%2C_Japan.jpg/1920px-Blue_Pond_%28Aoiike%29_at_Biei%2C_Hokkaido%2C_Japan.jpg" alt="Shirogane Blue Pond, Biei">
+          <div class="spot-body">
+            <div class="spot-name">Shirogane Blue Pond (Aoiike) <span class="badge blue">Iconic · 9/10</span></div>
+            <p class="spot-desc">An accidental masterpiece — aluminium-rich water glows an unreal milky turquoise around the silver skeletons of drowned larch trees. One of the most recognisable frames in all of Japan.</p>
+            <div class="facts"><div class="fact"><span>From Niseko:</span> ~3 h east</div><div class="fact"><span>Season:</span> late May–Jun vivid; winter blue-hour light-up</div><div class="fact"><span>Best light:</span> calm overcast morning for glassy reflection</div></div>
+            <div class="shot"><b>The frame:</b> use the bare larch trunks as vertical anchors in the teal water; shoot wide for the panoramic ratio.</div>
+          </div>
+        </article>
+
+        <article class="spot">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Shirahige-no-taki_Shirogane_Onsen_Biei_Hokkaido_Japan02s3.jpg/1920px-Shirahige-no-taki_Shirogane_Onsen_Biei_Hokkaido_Japan02s3.jpg" alt="Shirahige Falls over the blue Biei river">
+          <div class="spot-body">
+            <div class="spot-name">Shirahige Falls <span class="badge blue">Turquoise · 9/10</span></div>
+            <p class="spot-desc">Spring water bursts straight out of the cliff face and pours into a river so blue it looks dyed. The same mineral water that feeds the Blue Pond — magical when dusted with winter snow.</p>
+            <div class="facts"><div class="fact"><span>From Blue Pond:</span> 5 min</div><div class="fact"><span>Best light:</span> soft daylight makes the blue pop; lit up at night</div></div>
+            <div class="shot"><b>The frame:</b> from the Blue Bridge, frame the cliff-spring cascade hitting the cobalt Biei River — wide lens to keep both the falls and the river.</div>
+          </div>
+        </article>
+
+        <article class="spot">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/140726_Shikisai-no-oka_Biei_Hokkaido_Japan01n.jpg/1920px-140726_Shikisai-no-oka_Biei_Hokkaido_Japan01n.jpg" alt="Shikisai-no-oka patchwork hills, Biei">
+          <div class="spot-body">
+            <div class="spot-name">Biei patchwork hills (Shikisai-no-oka) <span class="badge green">Rolling colour · 7/10</span></div>
+            <p class="spot-desc">Rolling farmland quilted in saturated bands of flowers running toward the distant Tokachi range — Hokkaido's signature "patchwork road" scenery.</p>
+            <div class="facts"><div class="fact"><span>Where:</span> Biei (near the ponds)</div><div class="fact"><span>Season:</span> mid-Jul–Aug</div><div class="fact"><span>Best light:</span> golden hour to rake the rows</div></div>
+            <div class="shot"><b>The frame:</b> get low and shoot down the diagonal colour rows toward the mountains.</div>
+          </div>
+        </article>
+      </section>
+
+      <!-- DAY 4 -->
+      <section class="day">
+        <div class="day-head"><div class="day-num">Day 04</div><div class="day-title">Furano lavender &amp; Daisetsuzan colour</div></div>
+        <p class="day-tag">A short hop south to the lavender country, then (in season) up toward Daisetsuzan — the first place in all Japan to turn autumn-red.</p>
+
+        <article class="spot">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/140726_Farm_Tomita_Nakafurano_Hokkaido_Japan01s3.jpg/1920px-140726_Farm_Tomita_Nakafurano_Hokkaido_Japan01s3.jpg" alt="Farm Tomita lavender fields, Furano">
+          <div class="spot-body">
+            <div class="spot-name">Farm Tomita lavender <span class="badge">Summer signature · 8/10</span></div>
+            <p class="spot-desc">Endless violet corduroy rows running up to the Tokachi mountains — Hokkaido's defining summer scene, painterly and deep.</p>
+            <div class="facts"><div class="fact"><span>From Biei:</span> ~40 min</div><div class="fact"><span>Season:</span> early–mid July peak bloom</div><div class="fact"><span>Best light:</span> sunrise / golden hour side-light</div></div>
+            <div class="shot"><b>The frame:</b> kneel at the end of a row so the purple converges to a vanishing point with hills and sky behind.</div>
+          </div>
+        </article>
+
+        <article class="spot">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/%E8%A3%BE%E5%90%88%E5%B9%B3%E3%81%AE%E7%B4%85%E8%91%89%EF%BC%88Colored_leaves_of_Susoaidaira%EF%BC%89_-_panoramio.jpg/1920px-thumbnail.jpg" alt="Daisetsuzan autumn colours below snowy peaks">
+          <div class="spot-body">
+            <div class="spot-name">Daisetsuzan autumn (koyo) <span class="badge green">Seasons collide · 8/10</span></div>
+            <p class="spot-desc">Daisetsuzan turns first in all Japan — crimson rowan and gold birch carpeting the slopes beneath early-snow summits. "Seasons colliding" drama at altitude.</p>
+            <div class="facts"><div class="fact"><span>From Furano:</span> ~1.5–2 h (Asahidake side)</div><div class="fact"><span>Season:</span> mid–late September</div><div class="fact"><span>Best light:</span> clear morning</div></div>
+            <div class="shot"><b>The frame:</b> set a sharp peak as backdrop and let the red/gold foliage fill the foreground; ride the Asahidake ropeway for the high vantage.</div>
+          </div>
+        </article>
+      </section>
+
+      <!-- DAY 5 -->
+      <section class="day">
+        <div class="day-head"><div class="day-num">Day 05</div><div class="day-title">Back west via Otaru</div></div>
+        <p class="day-tag">Loop back toward Niseko / New Chitose. Break the drive in Otaru for the prettiest dusk in Hokkaido.</p>
+
+        <article class="spot">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Otaru_Canal_Night.jpg/1920px-Otaru_Canal_Night.jpg" alt="Otaru Canal at night with gas lamps">
+          <div class="spot-body">
+            <div class="spot-name">Otaru Canal at blue hour <span class="badge">Glowing dusk · 8/10</span></div>
+            <p class="spot-desc">A historic canal lined with gas lamps and stone warehouses, doubled in a glowing reflection at dusk. In February the Yuki Akari no Michi snow-light festival adds candlelit snow lanterns.</p>
+            <div class="facts"><div class="fact"><span>From Niseko:</span> ~1.5 h (en route to Sapporo/CTS)</div><div class="fact"><span>Best light:</span> blue hour, just after sunset</div></div>
+            <div class="shot"><b>The frame:</b> shoot from the canal bend so the warm lamps line the warehouses and mirror in the still water; tripod for the reflection.</div>
+          </div>
+        </article>
+      </section>
+
+      <!-- DETOUR / HONEST BOX -->
+      <div class="addon">
+        <h3>🌋 Worth a detour — but honestly not "hero" frames</h3>
+        <p class="day-tag" style="margin-bottom:0">The volcanic <b>Lake Toya / Noboribetsu</b> region sits ~1–2 h south of Niseko and is genuinely interesting, but its freely-shootable frames topped out at ~6/10 — scenic, not stop-the-scroll. Swap one in only if volcanoes are your thing.</p>
+        <div class="grid">
+          <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Hokkaido-Toya_Lake-xl.jpg/1920px-Hokkaido-Toya_Lake-xl.jpg" alt="Lake Toya with Mt. Yotei beyond">
+            <figcaption><b>Lake Toya</b> — caldera lake with Yotei beyond; nightly summer fireworks. ~1–1.5 h.</figcaption>
+          </figure>
+          <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Sh%C5%8Dwa-shinzan_volcanic_dome_%2831596849317%29.jpg/1920px-Sh%C5%8Dwa-shinzan_volcanic_dome_%2831596849317%29.jpg" alt="Showa Shinzan lava dome">
+            <figcaption><b>Showa Shinzan</b> — rust-red lava dome that rose from a field in the 1940s, still steaming. ~1.5 h.</figcaption>
+          </figure>
+          <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Oyunuma_Pond%2C_Noboribetsu_Onsen%2C_Hokkaido%2C_April_2023_01.jpg/1920px-Oyunuma_Pond%2C_Noboribetsu_Onsen%2C_Hokkaido%2C_April_2023_01.jpg" alt="Oyunuma steaming pond, Noboribetsu">
+            <figcaption><b>Jigokudani / Oyunuma</b> — steaming sulphur "Hell Valley" in Noboribetsu. ~2 h.</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- LOGISTICS -->
+      <section class="logistics">
+        <h2>Quick logistics</h2>
+        <div class="ltable">
+          <div class="lrow"><b>Fly:</b> into New Chitose (CTS); it's ~2–2.5 h by road/transfer to Niseko. Pick up a rental car at the airport — every spot here needs a car.</div>
+          <div class="lrow"><b>Shape of the trip:</b> Days 1–2 run from your Niseko base (Yotei + Shakotan). Days 3–4 are an eastern loop to Biei/Furano (relocate &amp; overnight there). Day 5 drives back west, stopping in Otaru.</div>
+          <div class="lrow"><b>When to come:</b> <b>Jun–Aug</b> for cobalt seas, the Blue Pond at its most vivid, and lavender; <b>mid–late Sept</b> for Daisetsuzan's early koyo; <b>Dec–Feb</b> for the snow-cone Yotei and Otaru's snow-light festival (but Shakotan's cape tips close in winter).</div>
+          <div class="lrow"><b>Honest framing:</b> Niseko's own strength is the Yotei volcano + powder; the truly jaw-dropping colour frames (Shakotan, Blue Pond, Shirahige) are day-trips/loops out from it. This route stacks them so every shooting stop earns its drive.</div>
+        </div>
+      </section>
+
+      <p class="endnote">
+        Shoot Niseko · a 5-day photographer's route — golden-hour timings are guidance; check seasonal road &amp; cape closures locally.
+        <span class="credit">Photos: Wikimedia Commons contributors (CC BY / CC BY-SA). Drive times approximate from Niseko (Hirafu/Kutchan). A Yuki Yabai travel guide.</span>
+      </p>
+
+    </div>
+  </main>
+
+  <!-- ===== BRAND FOOTER (Yuki Yabai, verbatim w/ absolute assets) ===== -->
+  <section id="legal-information">
+    <footer class="uui-footer07_component">
+      <div class="uui-page-padding-2">
+        <div class="uui-container-large-2">
+          <div class="uui-padding-vertical-xlarge">
+            <div class="uui-footer07_top-wrapper">
+              <a href="https://yukiyabai.com/" class="uui-footer07_logo-link w-nav-brand">
+                <div class="uui-logo_component"><img src="https://yukiyabai.com/images/long-logo-small.png" loading="lazy" alt="Yuki Yabai" class="uui-logo_logotype"><img src="https://yukiyabai.com/images/untitled-ui-logo.png" loading="lazy" alt="Logo" class="uui-logo_image"></div>
+              </a>
+            </div>
+            <div class="uui-footer07_bottom-wrapper">
+              <div class="uui-text-size-small text-color-gray500">© 2024 Yuki Yabai 合同会社. All rights reserved.<br><br>物件管理会社情報<br>‍<strong>事業者名</strong>: Yuki Yabai合同会社<br>‍<strong>所在地</strong>: 〒044-0034 北海道虻田郡倶知安町南4条西2丁目2-58<br>‍<strong>電話番号</strong>: 070-9274-0290<br><strong>メールアドレス</strong>: info@yukiyabai.com<br><strong>運営責任者</strong>: 佐藤咲恵<br><br></div>
+              <div class="uui-text-size-small text-color-gray500"><strong>サービス情報</strong><br><strong>役割: </strong>当社は物件所有者に代わり予約管理と代金受領を行う代理業者です。<strong><br>追加料金:</strong> 必要に応じて税金や清掃費が別途請求されます。<br><strong>キャンセル</strong>: 物件ごとに異なります。予約前に確認してください。<br>‍<strong>支払い方法</strong>: クレジットカード、銀行振込<br>‍<strong>支払時期</strong>: 各物件のポリシーに従います。予約時に確認してください。<br>‍<strong>料金</strong>: 物件により異なります（リスティング参照）<br>‍<br><br></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+</body>
+</html>
